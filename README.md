@@ -1,2 +1,2 @@
-# internet-store
-The site i created during study of html &amp; css
+# internet-store_ver2
+Landing page internet-store with absolutely new design
