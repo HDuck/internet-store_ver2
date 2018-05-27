@@ -10,45 +10,58 @@
 
 <body>
   <div class="container">
-    <header>
-      <div class="logo"></div>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#service">Service</a></li>
-          <li><a href="#featured">Collections</a></li>
-          <li><a href="#popular">Products</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#blog">Blog</a></li>
-        </ul>
-      </nav>
-      <div class="account">
-        <i class="far fa-user"></i>
-        <i class="fas fa-angle-down"></i>
+    <header class="header">
+      <div class="header__top">
+        <div class="logo"><a href="#">M&#250;sic m&#250;se</a></div>
+        <div class="menu">
+          <nav class="menu__nav">
+            <ul>
+              <li><a href="#"><span>Ho</span><span>me</span></a></li>
+              <li><a href="#service"><span>Se</span>rvi<span>ce</span></a></li>
+              <li><a href="#featured"><span>Co</span>llectio<span>ns</span></a></li>
+              <li><a href="#popular"><span>Pr</span>oduc<span>ts</span></a></li>
+              <li><a href="#about"><span>Ab</span>o<span>ut</span></a></li>
+              <li><a href="#blog"><span>Bl</span><span>og</span></a></li>
+            </ul>
+          </nav>
+          <div class="menu__account">
+            <i class="far fa-user"></i>
+            <i class="fas fa-angle-down"></i>
+          </div>
+          <div class="menu__basket">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+          <div class="menu__search">
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
       </div>
-      <div class="basket">
-        <i class="fas fa-shopping-cart"></i>
-      </div>
-      <div class="search">
-        <i class="fas fa-search"></i>
-      </div>
-      <div class="slider">
+      <div class="header__slider">
         <!--slide #1-->
-        <h1>Feel music flow inside</h1>
+        <p>Feel the music flow inside</p>
+        <a class="button-slide" href="#video">Watch inspirational video</a>
+<!--
         <img src="pictures/slider1.jpg" alt="" height="" width="">
         <a href="#video"></a>
+-->
         <!--slide #2-->
+<!--
         <h1>Find personal muse</h1>
         <img src="pictures/slider2.jpg" alt="" height="" width="">
         <a href="#featured"></a>
+-->
         <!--slide #3-->
+<!--
         <h1>Look through history</h1>
         <img src="pictures/slider3.jpg" alt="" height="" width="">
         <a href="#"></a>
+-->
       </div>
-      <div class="button-top">
-        <span class="button-top__clef">&#x1d11e;</span>
-        <i class="fas fa-angle-down"></i>
+      <div class="header__bot">
+        <div class="button-nav">
+          <span class="button-nav__clef">&#x1d11e;</span>
+          <i class="fas fa-angle-down"></i>
+        </div>
       </div>
     </header>
     <main>
@@ -200,9 +213,9 @@
       <div class="copyright">
         <p>&copy; 2018 Music Muse. All rights reserved.</p>
       </div>
-      <div class="button-bot">
+      <div class="button-nav">
         <i class="fas fa-angle-up"></i>
-        <span class="button-bot__clef">&#x1d11e;</span>
+        <span class="button-nav__clef">&#x1d11e;</span>
       </div>
     </footer>
   </div>

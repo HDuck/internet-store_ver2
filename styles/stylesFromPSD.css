@@ -1,13 +1,18 @@
-.border {
-  border-width: 2px;
-  border-color: rgb(73, 51, 242);
-  border-style: solid;
+.Navigation {
   position: absolute;
-  left: 99px;
-  top: 40px;
-  width: 89px;
-  height: 27px;
-  z-index: 266;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 5528px;
+  z-index: 269;
+}
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 5528px;
+  z-index: 268;
 }
 .logo {
   font-size: 21px;
@@ -19,6 +24,17 @@
   left: 106.987px;
   top: 43.005px;
   z-index: 267;
+}
+.border {
+  border-width: 2px;
+  border-color: rgb(73, 51, 242);
+  border-style: solid;
+  position: absolute;
+  left: 99px;
+  top: 40px;
+  width: 89px;
+  height: 27px;
+  z-index: 266;
 }
 .Menu {
   font-size: 16px;
@@ -57,3 +73,213 @@
   height: 2px;
   z-index: 261;
 }
+.account {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 5528px;
+  z-index: 259;
+}
+.dropdown {
+  font-size: 11px;
+  font-family: "FontAwesome";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 5;
+  position: absolute;
+  left: 1195.044px;
+  top: 21.5px;
+  z-index: 258;
+}
+. {
+  font-size: 14px;
+  font-family: "Material";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 3.972;
+  -moz-transform: matrix( 0.8,0,0,0.8,0,0);
+  -webkit-transform: matrix( 0.8,0,0,0.8,0,0);
+  -ms-transform: matrix( 0.8,0,0,0.8,0,0);
+  position: absolute;
+  left: 1183.553px;
+  top: 20.502px;
+  z-index: 257;
+}
+.border {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 2px;
+  opacity: 0.6;
+  position: absolute;
+  left: 1175px;
+  top: 40px;
+  width: 31px;
+  height: 14px;
+  z-index: 256;
+}
+.cart {
+  font-size: 17px;
+  font-family: "Material";
+  color: rgb(33, 33, 33);
+  text-transform: uppercase;
+  line-height: 3.235;
+  position: absolute;
+  left: 1223.013px;
+  top: 21.003px;
+  z-index: 254;
+}
+.search {
+  font-size: 16px;
+  font-family: "FontAwesome";
+  color: rgba(33, 33, 33, 0.8);
+  text-transform: uppercase;
+  line-height: 3.438;
+  position: absolute;
+  left: 1253.037px;
+  top: 20.496px;
+  z-index: 253;
+}
+._1 {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 1302px;
+  top: 300px;
+  width: 20px;
+  height: 20px;
+  z-index: 226;
+}
+.border {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 2px;
+  opacity: 0.6;
+  position: absolute;
+  left: 1175px;
+  top: 40px;
+  width: 31px;
+  height: 14px;
+  z-index: 256;
+}
+.account {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 5528px;
+  z-index: 259;
+}
+.dropdown {
+  font-size: 11px;
+  font-family: "FontAwesome";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 5;
+  position: absolute;
+  left: 1195.044px;
+  top: 21.5px;
+  z-index: 258;
+}
+. {
+  font-size: 14px;
+  font-family: "Material";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 3.972;
+  -moz-transform: matrix( 0.8,0,0,0.8,0,0);
+  -webkit-transform: matrix( 0.8,0,0,0.8,0,0);
+  -ms-transform: matrix( 0.8,0,0,0.8,0,0);
+  position: absolute;
+  left: 1183.553px;
+  top: 20.502px;
+  z-index: 257;
+}
+.border {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 2px;
+  opacity: 0.6;
+  position: absolute;
+  left: 1175px;
+  top: 40px;
+  width: 31px;
+  height: 14px;
+  z-index: 256;
+}
+.cart {
+  font-size: 17px;
+  font-family: "Material";
+  color: rgb(33, 33, 33);
+  text-transform: uppercase;
+  line-height: 3.235;
+  position: absolute;
+  left: 1223.013px;
+  top: 21.003px;
+  z-index: 254;
+}
+.search {
+  font-size: 16px;
+  font-family: "FontAwesome";
+  color: rgba(33, 33, 33, 0.8);
+  text-transform: uppercase;
+  line-height: 3.438;
+  position: absolute;
+  left: 1253.037px;
+  top: 20.496px;
+  z-index: 253;
+}
+.up {
+  font-size: 20px;
+  font-family: "FontAwesome";
+  color: rgb(33, 33, 33);
+  line-height: 2.75;
+  -moz-transform: matrix( -1.01114196871514,0,0,-0.97711380477405,0,0);
+  -webkit-transform: matrix( -1.01114196871514,0,0,-0.97711380477405,0,0);
+  -ms-transform: matrix( -1.01114196871514,0,0,-0.97711380477405,0,0);
+  position: absolute;
+  left: 1300px;
+  top: 5214px;
+  z-index: 52;
+}
+.Hero_Caption {
+  font-size: 50px;
+  font-family: "Butler";
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+  left: 197.138px;
+  top: 356.088px;
+  z-index: 250;
+}
+.view_collection {
+  font-size: 16px;
+  font-family: "Butler";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 3.438;
+  position: absolute;
+  left: 228.937px;
+  top: 438.996px;
+  z-index: 248;
+}
+
+.bttn_border {
+  border-radius: 3px;
+  background-color: rgb(73, 51, 242);
+  box-shadow: 0px 15px px 6px rgba(73, 51, 242, 0.22);
+  position: absolute;
+  left: 200px;
+  top: 439px;
+  width: 220px;
+  height: 54px;
+  z-index: 247;
+}
+
