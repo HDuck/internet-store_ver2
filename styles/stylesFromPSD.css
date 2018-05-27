@@ -1,0 +1,59 @@
+.border {
+  border-width: 2px;
+  border-color: rgb(73, 51, 242);
+  border-style: solid;
+  position: absolute;
+  left: 99px;
+  top: 40px;
+  width: 89px;
+  height: 27px;
+  z-index: 266;
+}
+.logo {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(33, 33, 33);
+  font-weight: bold;
+  line-height: 1.19;
+  position: absolute;
+  left: 106.987px;
+  top: 43.005px;
+  z-index: 267;
+}
+.Menu {
+  font-size: 16px;
+  font-family: "Butler";
+  color: rgb(33, 33, 33);
+  text-transform: uppercase;
+  line-height: 3.438;
+  position: absolute;
+  left: 610.937px;
+  top: 20.996px;
+  z-index: 264;
+}
+.Menu_hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1366px;
+  height: 5528px;
+  z-index: 263;
+}
+.Shape_1_copy {
+  background-color: rgb(73, 51, 242);
+  position: absolute;
+  left: 613px;
+  top: 36px;
+  width: 22px;
+  height: 2px;
+  z-index: 262;
+}
+.Shape_1 {
+  background-color: rgb(73, 51, 242);
+  position: absolute;
+  left: 636px;
+  top: 59px;
+  width: 22px;
+  height: 2px;
+  z-index: 261;
+}
