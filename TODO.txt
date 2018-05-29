@@ -1,2 +1,5 @@
 1) Add links to header for acc, basket, search.
 2) Style them.
+3) CONTENT:
+3.1) Popular products position and continue.
+4) FOOTER position!
