@@ -222,6 +222,11 @@ body {
     .main-font(Bold, 29px, rgb(33, 33, 33));
     text-transform: capitalize;
   }
+  
+  &4 {
+    .main-font(Bold, 22px, rgb(33, 33, 33));
+    text-transform: none;
+  }
 }
 
 .sec-text {
@@ -231,14 +236,15 @@ body {
 
 .service__info {
   width: 100%;
-}
-
-.service__info img {
-  float: right;
+  
+  img {
+    float: right;
+  }
 }
 
 .button-content {
   display: inline-block;
+  cursor: pointer;
   color: rgb(255, 255, 255);
   background-color: lighten(@border-color, 2.5%);
   border: @header-border;
@@ -321,4 +327,211 @@ body {
   display: none;
 }
 
+#popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
 
+.popular__product {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 255px;
+  height: 211px;
+  padding: 96px 0 0 30px;
+  background-color: orange;
+  
+  .sec-title4 {
+    display: none;
+  }
+}
+
+.popular__product:hover {
+  .cross-browser(box-shadow, 0px 10px 16px 0px rgba(0, 0, 0, 0.1));
+  background-color: rgb(255, 255, 255);
+  
+  .sec-title4,
+  .product__price,
+  .like,
+  .shop {
+    display: inline-block;
+  }
+}
+
+.product__price {
+  display: none;
+  width: 100%;
+  .main-font(Regular, 22px, rgba(33, 33, 33, .8));
+}
+
+.like,
+.shop {
+  display: none;
+  padding: 8px 20px;
+  border: 1px solid rgba(0, 0, 0, .6);
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(0, 0, 0, .6);
+  background-color: rgb(255, 255, 255);
+}
+
+.like {
+  .cross-browser(border-top-left-radius, 3px);
+  .cross-browser(border-bottom-left-radius, 3px);
+}
+
+.shop {
+  .cross-browser(border-top-right-radius, 3px);
+  .cross-browser(border-bottom-right-radius, 3px);
+}
+
+.button_center {
+  margin: 41px auto 0;
+}
+
+#video {
+  width: 100%;
+  height: 423px;
+  background-color: gray;
+  margin-top: 124px;
+}
+
+.about__info {
+  
+  img {
+    float: right;
+  }
+  
+  button {
+    margin-bottom: 122px;
+  }
+}
+
+#blog {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.blog__post {
+  width: 480px;
+  height: 512px;
+  padding: 0 60px 0 40px;
+  background-color: orange;
+}
+
+.post-type {
+  display: inline-block;
+  .main-font(Regular, 16px, rgb(255, 255, 255));
+  text-transform: none;
+  margin-top: 40px;
+}
+.post__footer {
+  margin-top: 25px;
+}
+.time,
+.comments {
+  display: inline-block;
+  .main-font(Regular, 16px, rgb(255, 255, 255));
+  text-transform: lowercase;
+  margin: 0 27px 25px;
+}
+.button_post {
+  display: block;
+  border: 1px solid rgb(255, 255, 255);
+  background: none;
+}
+
+.footer {
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-top: 121px;
+  padding: 47px 60px 0 254px;
+  background-color: rgb(242, 242, 242);
+  
+  .sec-title4 {
+    text-transform: capitalize;
+    margin-top: 0;
+  }
+  
+  .nav {
+    ul {
+      padding-left: 0;
+      
+      li {
+        list-style-type: none;
+        
+        a {
+          .main-font(Regular, 16px, rgb(33, 33, 33));
+          line-height: 1.625;
+          text-transform: capitalize;
+          text-decoration: none;
+          
+          
+        }
+      }
+    }
+  }
+  
+  .logo  {
+    display: block;
+    margin: 7px 0 34px 0;
+    
+    a {
+      color: rgb(0, 0, 0);
+    }
+  }
+  
+  .contact-info {
+    width: 300px;
+    
+    ul {
+      padding-left: 0;
+      
+      li {
+        list-style-type: none;
+        .main-font(Regular, 16px, rgb(33, 33, 33));
+        text-transform: none;
+        
+        a {
+          .main-font(Regular, 16px, rgb(33, 33, 33));
+          text-transform: none;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  
+  .socials {
+    font-size: 24px;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 20px;
+  }
+  
+  .subscription {
+    margin-top: 60px;
+    
+    .subscription__form {
+      margin-bottom: 69px;
+    }
+  }
+  
+  .copyright {
+    .main-font(Regular, 16px, rgb(33, 33, 33));
+    text-transform: none;
+  }
+  
+  .button-nav {
+    margin-bottom: 100px;
+    color: rgba(33, 33, 33, .6);
+  }
+}
