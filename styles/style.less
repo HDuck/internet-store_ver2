@@ -448,12 +448,9 @@ body {
 }
 
 .footer {
-  height: 288px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 121px;
   padding: 47px 60px 0 254px;
   background-color: rgb(242, 242, 242);
@@ -461,6 +458,22 @@ body {
   .sec-title4 {
     text-transform: capitalize;
     margin-top: 0;
+  }
+  
+  &__col1,
+  &__col2,
+  &__col3 {
+    width: 300px;
+//    height: 261px;
+//    display: flex;
+//    flex-direction: column;
+//    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  
+  &__col2,
+  &__col3 {
+    margin-top: 66px;
   }
   
   .nav {
@@ -475,15 +488,12 @@ body {
           line-height: 1.625;
           text-transform: capitalize;
           text-decoration: none;
-          
-          
         }
       }
     }
   }
   
   .logo  {
-    display: block;
     margin: 7px 0 34px 0;
     
     a {
@@ -492,7 +502,6 @@ body {
   }
   
   .contact-info {
-    width: 300px;
     
     ul {
       padding-left: 0;
@@ -514,24 +523,24 @@ body {
   .socials {
     font-size: 24px;
     color: rgba(0, 0, 0, .6);
-    margin-bottom: 20px;
   }
   
-  .subscription {
-    margin-top: 60px;
-    
-    .subscription__form {
-      margin-bottom: 69px;
-    }
+  .subscription__form {
+    margin-bottom: 128px;
   }
   
   .copyright {
     .main-font(Regular, 16px, rgb(33, 33, 33));
     text-transform: none;
+    
+    p {
+      margin: 0;
+    }
   }
   
   .button-nav {
-    margin-bottom: 100px;
+    margin: 0;
+    align-self: center;
     color: rgba(33, 33, 33, .6);
   }
 }

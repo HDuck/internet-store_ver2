@@ -432,12 +432,9 @@ body {
   background: none;
 }
 .footer {
-  height: 288px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: 121px;
   padding: 47px 60px 0 254px;
   background-color: #f2f2f2;
@@ -445,6 +442,16 @@ body {
 .footer .sec-title4 {
   text-transform: capitalize;
   margin-top: 0;
+}
+.footer__col1,
+.footer__col2,
+.footer__col3 {
+  width: 300px;
+  margin-bottom: 60px;
+}
+.footer__col2,
+.footer__col3 {
+  margin-top: 66px;
 }
 .footer .nav ul {
   padding-left: 0;
@@ -462,14 +469,10 @@ body {
   text-decoration: none;
 }
 .footer .logo {
-  display: block;
   margin: 7px 0 34px 0;
 }
 .footer .logo a {
   color: #000000;
-}
-.footer .contact-info {
-  width: 300px;
 }
 .footer .contact-info ul {
   padding-left: 0;
@@ -493,13 +496,9 @@ body {
 .footer .socials {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 20px;
 }
-.footer .subscription {
-  margin-top: 60px;
-}
-.footer .subscription .subscription__form {
-  margin-bottom: 69px;
+.footer .subscription__form {
+  margin-bottom: 128px;
 }
 .footer .copyright {
   font-family: "Butler-Regular", serif;
@@ -508,7 +507,11 @@ body {
   text-transform: uppercase;
   text-transform: none;
 }
+.footer .copyright p {
+  margin: 0;
+}
 .footer .button-nav {
-  margin-bottom: 100px;
+  margin: 0;
+  align-self: center;
   color: rgba(33, 33, 33, 0.6);
 }

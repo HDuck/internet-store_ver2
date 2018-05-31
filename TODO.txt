@@ -2,5 +2,6 @@
 2) Style them.
 3) CONTENT:
 3.1) end styling
+3.2) Check blog blocks for browser scaling.
 4) FOOTER:
-4.1) end styling
+4.1) Style subscription form
