@@ -1,5 +1,7 @@
 3) CONTENT:
 3.1) end styling
 3.2) Check blog blocks for browser scaling.
+3.3) Make CONTENT BEM.
+3.4) Configure content.less.
 4) FOOTER:
 4.1) Style subscription form
