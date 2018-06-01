@@ -1,0 +1,17 @@
+.cross-browser(@att, @value) {
+  -ms-@{att}: @value;
+  -moz-@{att}: @value;
+  -o-@{att}: @value;
+  -webkit-@{att}: @value;
+  @{att}: @value; 
+}
+
+.font(@size, @family, @color) {
+  font: @size "Butler-@{family}", serif;
+  color: @color;
+}
+.main-font(@family, @size, @color) {
+  font-family: "Butler-@{family}", serif;
+  font-size: @size;
+  color: @color;
+}
