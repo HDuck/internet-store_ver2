@@ -1,0 +1,131 @@
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: @container-width - 60px - 255px;
+  margin-top: 121px;
+  padding: 47px 60px 0 255px;
+  background-color: @bgc-main-footer;
+
+  &-title_style {
+    margin-top: 0;
+    text-transform: capitalize;
+  }
+
+  &__contacts,
+  &__subscription {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+
+  &__menu {
+    width: 200px;
+
+    &-logo {
+      margin-bottom: 34px;
+      color: @main-footer-font-color;
+    }
+
+    &-nav {
+
+      &-list {
+        padding-left: 0;
+
+        &-item {
+          list-style-type: none;
+
+          &-link {
+            .font(~"16px/2", Regular, @main-footer-font-color);
+            text-transform: capitalize;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__contacts {
+    margin-top: 73px;
+
+    &-info {
+
+      &-list {
+        padding-left: 0;
+        margin-bottom: 44px;
+
+        &-item {
+          list-style-type: none;
+          .font(16px, Regular, @main-footer-font-color);
+
+          &-email-link {
+            text-decoration: none;
+            color: @main-footer-font-color;
+          }
+        }
+      }
+    }
+
+    &-social {
+
+      & i {
+        font-size: 25px;
+        color: @main-footer-socials-color;
+      }
+    }
+  }
+
+  &__subscription {
+    margin-top: 73px;
+
+    &-form {
+      margin-bottom: 155px;
+    }
+  }
+
+  &__copyright {
+    .font(16px, Regular, @main-footer-font-color);
+
+    &-text {
+      margin: 0;
+    }
+  }
+
+  &__scroll-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 204px;
+    color: @main-footer-font-color;
+
+    &-clef {
+      font-size: 32px;
+      line-height: 1;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &-mail-field {
+    width: 203px;
+    height: 36px;
+    border: @form-mail-field-border;
+    border-right: 0;
+    .cross-browser(border-top-left-radius, @form-elements-border-radius);
+    .cross-browser(border-bottom-left-radius, @form-elements-border-radius);
+    outline: none;
+  }
+
+  &-button {
+    width: 39px;
+    height: 40px;
+    background: @bgc-form-button url(../pictures/send.png) no-repeat center;
+    .cross-browser(border-top-right-radius, @form-elements-border-radius);
+    .cross-browser(border-bottom-right-radius, @form-elements-border-radius);
+    
+    
+  }
+}
