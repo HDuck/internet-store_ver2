@@ -1,0 +1,19 @@
+.img {
+  background-image: url("img.png");
+  position: absolute;
+  left: 12px;
+  top: 4322px;
+  width: 768px;
+  height: 512px;
+  z-index: 68;
+}
+.border {
+  border-radius: 7px;
+  background-color: rgb(171, 159, 203);
+  position: absolute;
+  left: 98px;
+  top: 4325px;
+  width: 581px;
+  height: 504px;
+  z-index: 67;
+}

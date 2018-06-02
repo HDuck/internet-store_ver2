@@ -1,9 +1,3 @@
-3) CONTENT:
-3.1) end styling
-3.2) Check blog blocks for browser scaling.
-3.3) Make CONTENT BEM.
-3.4) Configure content.less.
-3.5) Featured collection small block last child margin-bot:0 check.
-3.6) Other styling!
 4) FOOTER:
 4.1) Style subscription form
+4.2) Make it BEM!
