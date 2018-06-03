@@ -111,12 +111,18 @@
 
   &-mail-field {
     width: 203px;
-    height: 36px;
+    height: 13px;
+    padding: 13px 0 12px 10px;
+    .font(~"16px/1.625", Regular, @form-placeholder-text-color);
     border: @form-mail-field-border;
     border-right: 0;
     .cross-browser(border-top-left-radius, @form-elements-border-radius);
     .cross-browser(border-bottom-left-radius, @form-elements-border-radius);
     outline: none;
+
+    &:focus {
+      color: @text-font-color;
+    }
   }
 
   &-button {
@@ -125,7 +131,5 @@
     background: @bgc-form-button url(../pictures/send.png) no-repeat center;
     .cross-browser(border-top-right-radius, @form-elements-border-radius);
     .cross-browser(border-bottom-right-radius, @form-elements-border-radius);
-    
-    
   }
 }
