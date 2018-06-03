@@ -1,2 +1,1 @@
-FOOTER:
-2) Make :hover :active for buttons.
+TODO: js animations
