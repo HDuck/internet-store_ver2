@@ -15,6 +15,7 @@
   &__contacts,
   &__subscription {
     width: 300px;
+    margin-top: 73px;
     margin-bottom: 50px;
   }
 
@@ -45,7 +46,6 @@
   }
 
   &__contacts {
-    margin-top: 73px;
 
     &-info {
 
@@ -67,15 +67,31 @@
 
     &-social {
 
-      & i {
+      &-link {
+        text-decoration: none;
         font-size: 25px;
         color: @main-footer-socials-color;
+
+        &:nth-child(2):hover {
+          color: rgb(59, 89, 151);
+        }
+
+        &:nth-child(3):hover {
+          color: rgb(63, 204, 253);
+        }
+
+        &:nth-child(4):hover {
+          color: rgb(203, 32, 29);
+        }
+
+        &:nth-child(5):hover {
+          color: rgb(203, 32, 29);
+        }
       }
     }
   }
 
   &__subscription {
-    margin-top: 73px;
 
     &-form {
       margin-bottom: 155px;
@@ -131,5 +147,13 @@
     background: @bgc-form-button url(../pictures/send.png) no-repeat center;
     .cross-browser(border-top-right-radius, @form-elements-border-radius);
     .cross-browser(border-bottom-right-radius, @form-elements-border-radius);
+
+    &:hover {
+      background-color: darken(@bgc-form-button, 5%);
+    }
+
+    &:active {
+      background-color: darken(@bgc-form-button, 20%);
+    }
   }
 }

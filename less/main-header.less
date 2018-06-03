@@ -126,7 +126,17 @@
     background-color: lighten(@bgc-button, 2.5%);
     border: @header-border;
     .cross-browser(border-radius, 3px);
-    .cross-browser(box-shadow, 0px 10px 34px 6px @button-shadow-color);
+
+    &:hover {
+      .cross-browser(box-shadow, 0px 10px 34px 6px @button-shadow-color);
+    }
+
+    &:active {
+      color: @border-color;
+      background: none;
+      border-color: @header-font-color;
+      .cross-browser(box-shadow, 0px 10px 34px 6px darken(@header-font-color, 65%));
+    }
   }
 }
 

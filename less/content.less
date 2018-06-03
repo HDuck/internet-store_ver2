@@ -55,7 +55,18 @@
   background-color: lighten(@bgc-button, 2.5%);
   border: @header-border;
   .cross-browser(border-radius, 3px);
-  .cross-browser(box-shadow, 0px 10px 34px 6px @button-shadow-color);
+
+  &:hover {
+    border-color: lighten(@bgc-button, 10%);
+    .cross-browser(box-shadow, 0px 10px 34px 6px @button-shadow-color);
+  }
+
+  &:active {
+    color: @border-color;
+    background: none;
+    border-color: lighten(@text-font-color, 75%);
+    .cross-browser(box-shadow, none);
+  }
 }
 
 #featured {
@@ -70,15 +81,27 @@
 .feat {
 
   &-title_display {
-    display: none;  
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, .5);
   }
 
   &-button_display {
     display: none;
     color: @featured-button-font-color;
     background-color: @bgc-featured-button;
-    border-color: darken(@bgc-featured-button, 2.5%);
-    .cross-browser(box-shadow, 0px 10px 34px 6px @featured-button-shadow-color);
+    border-color: darken(@bgc-featured-button, 15%);
+
+    &:hover {
+      border-color: darken(@bgc-featured-button, 30%);
+      .cross-browser(box-shadow, 0px 10px 34px 6px @featured-button-shadow-color);
+    }
+
+    &:active {
+      color: lighten(@featured-button-font-color, 75%);
+      .cross-browser(box-shadow, none);
+    }
   }
 
   &-collection {
@@ -108,6 +131,8 @@
 
         .feat-title_display {
           display: block;
+          padding: 0;
+          background: none;
         }
 
         .feat-button_display {
@@ -148,6 +173,8 @@
 
         .feat-title_display {
           display: block;
+          padding: 0;
+          background: none;
         }
 
         .feat-button_display {
@@ -207,6 +234,14 @@
       color: @popul-prod-likebuy-color;
       border: 1px solid @popul-prod-likebuy-color;
       background-color: @bgc-popul-prod;
+
+      &:hover {
+        background-color: darken(@bgc-popul-prod, 2.5%);
+      }
+
+      &:active {
+        background-color: darken(@popul-prod-likebuy-color, 10%);
+      }
     }
 
     &__like {
@@ -288,11 +323,11 @@
   .cross-browser(border-radius, @blog-post-border-radius);
 
   &:nth-child(2) {
-    background: @bgc-blog-post1 url(../pictures/blog-post1-min.jpg) no-repeat center 0/cover;
+    background: @bgc-blog-post url(../pictures/blog-post1-min.jpg) no-repeat center 0/cover;
   }
 
   &:nth-child(3) {
-    background: @bgc-blog-post1 url(../pictures/your_story.jpg) no-repeat center 0/cover;
+    background: @bgc-blog-post url(../pictures/your_story.jpg) no-repeat center 0/cover;
   }
 
   &_text-width {
@@ -301,8 +336,8 @@
 
   &_font-style {
     padding: 10px;
-    color: @blog-post1-font-color;
-    background-color: @bgc-blog-post1-text;
+    color: @blog-post-font-color;
+    background-color: @bgc-blog-post-text;
     .cross-browser(border-radius, 5px);
   }
 
@@ -311,7 +346,7 @@
     &__type {
       display: inline-block;
       margin-top: 40px;
-      .font(16px, Regular, @blog-post1-font-color);
+      .font(16px, Regular, @blog-post-font-color);
     }
   }
 
@@ -323,7 +358,7 @@
       display: inline-flex;
       justify-content: flex-start;
       align-items: center;
-      .font(~"16px/1", Regular, @blog-post1-font-color);
+      .font(~"16px/1", Regular, @blog-post-font-color);
       text-transform: lowercase;
       margin: 0 17px 15px;
 
@@ -333,9 +368,18 @@
     }
 
     &__button {
-      border: 1px solid @blog-post1-font-color;
+      border: 1px solid @blog-post-font-color;
       background: none;
-      .cross-browser(box-shadow, 0px 10px 34px 6px @blog-post1-button-shadow-color)
+
+      &:hover {
+        border-color: darken(@blog-post-font-color, 40%);
+        .cross-browser(box-shadow, 0px 10px 34px 6px @blog-post-button-shadow-color);
+      }
+
+      &:active {
+        color: darken(@blog-post-font-color, 70%);
+        background-color: rgba(242, 242, 242, .75);
+      }
     }
   }
 }
