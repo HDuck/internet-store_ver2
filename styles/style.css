@@ -465,11 +465,9 @@ body {
 .popul-prod:hover:nth-child(5) {
   background-position: 175px 60px;
 }
-#video {
-  width: 100%;
-  height: 423px;
+#player {
+  margin: 124px 207px 0;
   background-color: gray;
-  margin-top: 124px;
 }
 #blog {
   display: flex;
